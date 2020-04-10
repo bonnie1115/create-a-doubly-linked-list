@@ -17,23 +17,15 @@ public class Main {
         LinkedListNode second = new LinkedListNode();
         LinkedListNode third = new LinkedListNode();
 
-        head.value =1;
-        second.value=2;
-        third.value=3;
+        head.value = 1;
+        second.value = 2;
+        third.value = 3;
 
-        head.next =second;
-        second.prev=head;
+        head.next = second;
+        second.prev = head;
         second.next = third;
-        third.prev =second;
+        third.prev = second;
 
         return head;
-
-
-
-
-
-
-
-
     }
 }
